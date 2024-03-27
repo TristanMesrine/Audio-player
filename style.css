@@ -1,0 +1,122 @@
+body {
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 100%);
+    font-family: Plus Jakarta Sans,sans-serif;
+}
+
+main {
+    margin-top: 10vh;
+  }
+
+.audioplayer {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: auto;
+    max-width: 70%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 1px 1px 20px white;
+    user-select: none;
+}
+
+/************************************/
+
+.container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: block;
+    overflow: hidden;
+    color: white;
+}
+
+.albumheader h2 {
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.albumheader span {
+    color: #ffe664;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.albumheader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid #ffe664;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
+.musique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    color: grey;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 1.3em;
+}
+
+.musique:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.barreaudio {
+    height: 4px;
+    background-color: rgb(128, 128, 128);
+}
+
+.audioplay {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 12px;
+}
+
+span {
+    color: grey;
+    font-size: 1.3em;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.controls svg {
+    fill: grey;
+}
+
+#track-time {
+    color: #ffe664;
+    font-size: 1.3em;
+}
+
+#pause-button,
+#volume-off {
+    display: none;
+}
+
+.volume {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.volume svg {
+    fill: white;
+}
+
+#volume::-webkit-slider-runnable-track {
+    background: linear-gradient(90deg, rgba(255,193,83,1) 0%, rgba(255,230,100,1) 100%);
+    border: 1px solid rgb(90, 90, 90);
+  }
+
+  
